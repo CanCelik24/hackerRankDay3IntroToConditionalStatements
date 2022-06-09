@@ -2,8 +2,8 @@
 [Kodluyoruz](https://app.patika.dev/) .Net eğitimi için hazırlanan C# If-ElseIf-Ternary-If ödevidir. Hacker Rank Challenge Day 3: Intro to Conditional Statements cevabı için oluşturulmuştur.
 ## Day 3: Intro to Conditional Statements
 - N'nin ikiye bölümünden kalanın 1 olması demek sayının tek sayı olacağı anlamına geldiği için ilk olarak N değişkenin modu alınmıştır.
-- Konsola "Weird" yazdırmamız gereken diğer durum sayının 6 ve 20 arasında (6 ve 20 dahil) bulunan tek sayılar olacağı için veya operatörü (||) ile bu koşulda belirtilmiştir.
-- Geri kalan tüm durumlar için sonuç "Not Weird" olacağından else bloğuda aşağıdaki gibi oluşturulmuştur.  
+- Konsola "Weird" yazdırmamız gereken diğer durum sayının 6 ve 20 arasında (6 ve 20 dahil) bulunan tek sayılar olacağı için veya operatörü (||) ile bu koşul belirtilmiştir.
+- Geri kalan tüm durumlar için sonuç "Not Weird" olacağından else bloğu aşağıdaki gibi oluşturulmuştur.  
     
         if(N % 2 == 1 || (N >= 6 && N <= 20))
         {
